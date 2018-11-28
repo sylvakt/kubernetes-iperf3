@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: iperf3-server
+        role: master
     spec:
       affinity:
         nodeAffinity:
